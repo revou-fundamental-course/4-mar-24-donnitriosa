@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #FAFAFA;
+  padding: 0px 0;
+}
+.header-item {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-item ul {
+  margin-left: auto;
+  padding-right: 30px;
+}
+.title {
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  font-family: sofia, Tahoma, Geneva, Verdana, sans-serif;
+  color: #001;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 10px;
+  align-items: right;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #001;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+nav ul li a:hover {
+  color: #AD88C6;
+}
+main {
+  background-color: #DFF5FF;
+}
+h3 {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 25px;
+  font-family: Geneva, Verdana, sans-serif;
+  color: #001;
+  font-weight: bold;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container-item {
+  width: 50%;
+  margin: 0 30px 0 30px ;
+  padding: 0 20px 0 20px;
+}
+p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
+  color: #001;
+  text-align: justify;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #FFFFFA;
+  padding: 15px;
+}
+.form-group {
+  margin-bottom: 20px;
+  display: block;
+}
+.form-group label, .form-group input {
+  margin-top: 5px;
+  display: block;
+}
+.radio-group input, .radio-group label {
+  display: inline;
+}
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  padding: 10px 20px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
+}
+.button-group {
+  text-align: right;
+}
+.button-submit {
+  background-color: #AD88C6;
+  color: white;
+}
+.button-submit:hover {
+  background-color: #4da8c2;
+}
+.button-reset {
+  background-color: #B7C9F2;
+  color: black;
+}
+.button-reset:hover {
+  background-color: #da3729;
+  color: white;
+}
+footer {
+  background-color: #67C6E3;
+  padding: 10px 10px;
+  padding-left: 25px;
+  text-align: left;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(24, 24, 220);
+  font-size: 18px;
+}
+footer a:hover {
+  color: red;
+}
+```
