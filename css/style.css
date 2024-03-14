@@ -26,6 +26,10 @@ header {
   color: #001;
   font-weight: bold;
 }
+.title:hover {
+  color: #590d8b;
+  font-size: 35px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -170,5 +174,19 @@ footer a:hover {
 }
 .invalid {
   border: 1px solid red;
+}
+.image-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 40% ;
+  padding: 10px 10px;
+  /* align-items: center; */
+}
+img:hover {
+  width: 50% ;
+  padding: 5px 5px;
 }
 ```
