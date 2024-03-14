@@ -78,6 +78,7 @@ p {
   text-align: justify;
 }
 form {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -98,9 +99,11 @@ form {
 input[type="text"], input[type="number"] {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+input:focus {
+  outline: none;
 }
 button {
   padding: 10px 20px;
@@ -129,6 +132,25 @@ button {
   background-color: #da3729;
   color: white;
 }
+.result {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #FFFFFA;
+  text-align: center;
+}
+.result h2 {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
+  color: #001;
+}
+.result p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
+  color: #001;
+  text-align: center;
+}
 footer {
   background-color: #67C6E3;
   padding: 10px 10px;
@@ -142,5 +164,11 @@ footer a {
 }
 footer a:hover {
   color: red;
+}
+.valid {
+  border: 1px solid #ccc;
+}
+.invalid {
+  border: 1px solid red;
 }
 ```
