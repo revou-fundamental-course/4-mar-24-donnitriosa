@@ -37,18 +37,22 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
     return;
   }
-
+  // Get the weight and height values
   var weight = parseFloat(weightElement.value);
   var height = parseFloat(heightElement.value) / 100;
 
+  // Check if the weight and height are valid numbers
   if (isNaN(weight) || isNaN(height)) {
     alert('Please enter valid numbers');
     return;
   }
 
+  // Calculate the BMI
   var bmi = weight / (height * height);
+  // Display the BMI result
   document.querySelector('#bmi-result').textContent = bmi.toFixed(1);
 
+  // Determine the BMI category
   var category;
   var resultText;
   var resultColor;
@@ -71,6 +75,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     resultColor = 'red';
   }
 
+  // Display the result
   document.querySelector('#result').textContent = resultText;
   document.querySelector('#result').style.color = resultColor;
   document.querySelector('#bmi-result').style.color = resultColor;
